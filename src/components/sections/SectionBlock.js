@@ -5,7 +5,7 @@ import SectionTitle from '../snippets/SectionTitle';
 const SectionBlock = (props) => {
 
   const Section = styled.section`
-    padding: 2em 0;
+    margin: 11em 0;
   `;
 
   return (

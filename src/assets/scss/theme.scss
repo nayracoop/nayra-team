@@ -12,10 +12,14 @@ $text: 'Work Sans', sans-serif;
 
 body {
   margin: 0;
-  font: 400 100%/1.5 $text;
+  font: 400 100%/1.375 $text;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
   background-color: $light-color;
   color: $text-color;
+}
+
+* { 
+  box-sizing: border-box;
 }

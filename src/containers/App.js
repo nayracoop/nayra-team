@@ -16,14 +16,23 @@ const theme = {
   fonts: {
     display: "'Saira', sans-serif",
     text: "'Work Sans', sans-serif"
+  },
+  pageWidth: {
+    xl: 1200
   }
 }
 
 const Container = styled.div`
-    margin: 0 auto;
-    padding: 0 30px;
-    width: 100%;
-    max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+  width: 100%;
+  max-width: ${theme.pageWidth.xl}px;
+`;
+
+const P = styled.p`
+  font-family: ${theme.fonts.display};
+  font-size: 1.5em;
+  margin: 1.375em 0;
 `;
 
 function App() {
@@ -33,8 +42,8 @@ function App() {
         <article>
           <Container>
             <Header title="No sé qué frase va acá">
-              <p>We are a team of designers, developers and artists established as a worker's co-op, dedicated to the development of reliable and dynamic interactive systems.</p>
-              <p>Collaborative work and a horizontal and democratic organization enhance the creative and professional processes, allowing us to obtain excellent results in each project.</p>
+              <P>We are a team of designers, developers and artists established as a worker's co-op, dedicated to the development of reliable and dynamic interactive systems.</P>
+              <P>Collaborative work and a horizontal and democratic organization enhance the creative and professional processes, allowing us to obtain excellent results in each project.</P>
             </Header>
           </Container>
           <Container>
@@ -49,12 +58,10 @@ function App() {
           </Container>
           <Container>
             <SectionBlock title={<span>Need <span>a bigger team</span></span>}>
-              <FIT />
+              <P>I am part of a team of developers and, as such, we work together in an organized, decisive manner and in an environment of support and trust that allows us to offer fully compatible resources and  teams. As an interdisciplinary team, we approach each project from a global perspective that meets all your specific requirements. As a company, we understand that this is an industry that is continuously evolving and ...</P>
             </SectionBlock>
           </Container>
-          <Container>
-            <Contact />
-          </Container>
+          <Contact title={<span>Keep <span>in touch</span></span>} />
         </article>
       </ThemeProvider>
     </div>

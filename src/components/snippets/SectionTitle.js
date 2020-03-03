@@ -9,8 +9,9 @@ const SectionTitle = (props) => {
     font-weight: 500;
     color: ${props.theme.colors.dark};
     font-size: 4em;
-    padding: 0.25em 0;
-    
+    padding: 0.25em 0 0 0;
+    margin-bottom: 0.375em;
+
     ::before {
       position: absolute;
       content: "";

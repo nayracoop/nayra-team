@@ -11,7 +11,7 @@ const Header = (props) => {
   const TitleContainer = styled.div`
     display: inline-block;
     font-family: ${props.theme.fonts.display};
-    padding: 4em 0;
+    padding: 3.75em 0;
     font-weight: 500;
     text-align: left;
     line-height: 1;
@@ -22,31 +22,29 @@ const Header = (props) => {
     position: relative;
     text-transform: lowercase;
     font-size: 11em;
-    letter-spacing: .05em;
+    letter-spacing: .075em;
     margin: 0;
     
     ::before {
       position: absolute;
       content: "";
       display: block;
-      width: 1.05em;
-      height: 8px;
-      border-radius: 4px;
+      width: 1.075em;
+      height: 0.05em;
+      border-radius: 0.05em;
       background-color: ${props.theme.colors.primary};
       left: 0.075em;
-      top: 0.15em;
+      top: 0.1625em;
     }
   `;
 
   const Title = styled.h1`
     font-size: 2em;
     font-weight: 400;
-    margin: -0.25em 0 0 10.75em;
+    margin: -0.325em 0 0 11.25em;
   `;
 
   const TextContainer = styled.div`
-    font-family: ${props.theme.fonts.display};
-    font-size: 1.5em;
     text-align: left;
   `;
 
