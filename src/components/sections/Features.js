@@ -13,13 +13,13 @@ const Features = (props) => {
   return (
     <div className="Features">
       <Grid>
-        <FeatureCard title="Infrastructure">
+        <FeatureCard title="Infrastructure" img={require('../../assets/img/infrastructure.svg')}>
           We believe that the workspace plays a fundamental role in performance. That is why we have our own office that allows us to work in a comfortable, safe and fully equipped environment.
         </FeatureCard>
-        <FeatureCard title="Scalable teams">
+        <FeatureCard title="Scalable teams" img={require('../../assets/img/scalability.svg')}>
           I am part of a team of developers and, as such, we work together in an organized, decisive manner and in an environment of support and trust that allows us to offer fully compatible resources and  teams.
         </FeatureCard>
-        <FeatureCard title="Training and vision">
+        <FeatureCard title="Training and vision" img={require('../../assets/img/vision.svg')}>
           As an interdisciplinary team, we approach each project from a global perspective that meets all your specific requirements. As a company, we understand that this is an industry that is continuously evolving and ...
         </FeatureCard>
       </Grid>

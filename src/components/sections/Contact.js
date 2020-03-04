@@ -7,7 +7,9 @@ const Contact = (props) => {
   const Section = styled.section`
     padding: 5.5em 0 11em;
     margin-top: -5.5em;
-    background: ${props.theme.colors.dark};
+    background-color: ${props.theme.colors.dark};
+    background-image: url(${require('../../assets/img/bg/dark.png')});
+    background-size: cover;
   `;
 
   const Container = styled.div`

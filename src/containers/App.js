@@ -1,11 +1,16 @@
 import React from 'react';
-import styled, { ThemeProvider } from 'styled-components'
+import styled, { ThemeProvider } from 'styled-components';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+ 
 import Header from '../components/sections/Header';
 import SectionBlock from '../components/sections/SectionBlock';
 import Features from '../components/sections/Features';
 import Team from '../components/sections/Team';
 import FIT from '../components/sections/FIT';
 import Contact from '../components/sections/Contact';
+
+library.add(fab);
 
 const theme = {
   colors: {
@@ -58,7 +63,7 @@ function App() {
           </Container>
           <Container>
             <SectionBlock title={<span>Need <span>a bigger team</span></span>}>
-              <P>I am part of a team of developers and, as such, we work together in an organized, decisive manner and in an environment of support and trust that allows us to offer fully compatible resources and  teams. As an interdisciplinary team, we approach each project from a global perspective that meets all your specific requirements. As a company, we understand that this is an industry that is continuously evolving and ...</P>
+              <P>We work with all these people from FIT that are unos capos and  lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed magna porta, rutrum dui et, sollicitudin ligula. Duis porttitor blandit mi ornare dignissim. Curabitur eget imperdiet purus, quis condimentum metus. Integer sodales enim eu nibh dignissim venenatis. Duis sit amet condimentum est. Donec facilisis,.</P>
             </SectionBlock>
           </Container>
           <Contact title={<span>Keep <span>in touch</span></span>} />
