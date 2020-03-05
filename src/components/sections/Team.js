@@ -14,24 +14,12 @@ const Team = (props) => {
   return (
     <div className="Team">
       <Grid>
-        <TeamCard title="Infrastructure">
-          We believe that the workspace plays a fundamental role in performance. That is why we have our own office that allows us to work in a comfortable, safe and fully equipped environment.
-        </TeamCard>
-        <TeamCard title="Scalable teams">
-          I am part of a team of developers and, as such, we work together in an organized, decisive manner and in an environment of support and trust that allows us to offer fully compatible resources and  teams.
-        </TeamCard>
-        <TeamCard title="Training and vision">
-          As an interdisciplinary team, we approach each project from a global perspective that meets all your specific requirements. As a company, we understand that this is an industry that is continuously evolving and ...
-        </TeamCard>
-        <TeamCard title="Infrastructure">
-          We believe that the workspace plays a fundamental role in performance. That is why we have our own office that allows us to work in a comfortable, safe and fully equipped environment.
-        </TeamCard>
-        <TeamCard title="Scalable teams">
-          I am part of a team of developers and, as such, we work together in an organized, decisive manner and in an environment of support and trust that allows us to offer fully compatible resources and  teams.
-        </TeamCard>
-        <TeamCard title="Training and vision">
-          As an interdisciplinary team, we approach each project from a global perspective that meets all your specific requirements. As a company, we understand that this is an industry that is continuously evolving and ...
-        </TeamCard>
+        <TeamCard name="Pehuén Rodriguez" position="Sr. full-stack developer" knowledge={ [ 'python', 'node-js', 'reactjs', 'mongodb' ] } github="/pehuenrodriguez" linkedin="/pehuenrodriguez" img={require('../../assets/img/pehue.jpg')} />
+        <TeamCard name="José Casanova" position="Sr. full-stack developer" knowledge={ [ 'python', 'node-js', 'reactjs', 'mongodb' ] } github="/pehuenrodriguez" linkedin="/pehuenrodriguez" img={require('../../assets/img/jose.jpg')} />
+        <TeamCard name="Martina Colmenero" position="Sr. full-stack developer" knowledge={ [ 'python', 'node-js', 'reactjs', 'mongodb' ] } github="/pehuenrodriguez" linkedin="/pehuenrodriguez" img={require('../../assets/img/martu.jpg')} />
+        <TeamCard name="Ignacio Guerra" position="Sr. full-stack developer" knowledge={ [ 'python', 'node-js', 'reactjs', 'mongodb' ] } github="/pehuenrodriguez" linkedin="/pehuenrodriguez" img={require('../../assets/img/nacho.jpg')} />
+        <TeamCard name="Tobías Irigoyen" position="Sr. full-stack developer" knowledge={ [ 'python', 'node-js', 'reactjs', 'mongodb' ] } github="/pehuenrodriguez" linkedin="/pehuenrodriguez" img={require('../../assets/img/tobi.jpg')} />
+        <TeamCard name="Romina Gómez" position="Sr. full-stack developer" knowledge={ [ 'python', 'node-js', 'reactjs', 'mongodb' ] } github="/pehuenrodriguez" linkedin="/pehuenrodriguez" img={require('../../assets/img/romi.jpg')} />
       </Grid>
     </div>
   );

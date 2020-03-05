@@ -66,7 +66,7 @@ function App() {
               <P>We work with all these people from FIT that are unos capos and  lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed magna porta, rutrum dui et, sollicitudin ligula. Duis porttitor blandit mi ornare dignissim. Curabitur eget imperdiet purus, quis condimentum metus. Integer sodales enim eu nibh dignissim venenatis. Duis sit amet condimentum est. Donec facilisis,.</P>
             </SectionBlock>
           </Container>
-          <Contact title={<span>Keep <span>in touch</span></span>} />
+          <Contact title={<span>Keep <span>in touch</span></span>} email="info@nayra.coop" />
         </article>
       </ThemeProvider>
     </div>

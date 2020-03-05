@@ -19,9 +19,11 @@ body {
 
   background-color: $light-color;
   background-image: url('../img/bg/grid.png'), url('../img/bg/light.png');
-  background-attachment: fixed, scroll; 
-  // background-attachment: scroll, fixed; 
+  // background-attachment: fixed, scroll; 
+  background-attachment: scroll, fixed; 
   background-size: auto, cover;
+  background-position: center, center;
+  background-repeat: repeat, no-repeat ;
   color: $text-color;
 }
 

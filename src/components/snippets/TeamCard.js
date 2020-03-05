@@ -25,8 +25,8 @@ const TeamCard = (props) => {
 
   return (
     <Container className="TeamCard">
-      <Image src="https://media-exp1.licdn.com/dms/image/C4E03AQFE6nYVEF-UmQ/profile-displayphoto-shrink_200_200/0?e=1588809600&v=beta&t=NnZw-2Gq1CKMSVNrTqEkyas-tgv8GCzEgIntu4tjw4M" />
-      <TeamCardInfo name="Ignacio Guerra" position="Sr. fullstack developer" />
+      <Image src={props.img} />
+      <TeamCardInfo name={props.name} position={props.position} skills={props.knowledge} github={props.github} linkedin={props.linkedin} />
     </Container>
   );
 }
