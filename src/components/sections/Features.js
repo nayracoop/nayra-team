@@ -6,8 +6,16 @@ const Features = (props) => {
 
   const Grid = styled.div`
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 40px;
+    grid-row-gap: 40px;
+
+    @media (min-width: 576px) {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+    @media (min-width: 992px) {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
   `;
 
   return (

@@ -4,8 +4,20 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const InlineList = styled.ul`
   display: grid;
-  grid-template-columns: 1fr 1fr;
   grid-column-gap: 10px;
+
+  @media (min-width: 576px) {
+    grid-template-columns: 1fr;
+  }
+  @media (min-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+  }
+  @media (min-width: 992px) {
+    grid-template-columns: 1fr;
+  }
+  @media (min-width: 1200px) {
+    grid-template-columns: 1fr 1fr;
+  }
 `;
 
 const Icon = styled.span`

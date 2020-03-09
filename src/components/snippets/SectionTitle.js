@@ -6,7 +6,6 @@ const Title = styled.h2`
   font-family: ${props => props.theme.fonts.display};
   font-weight: 500;
   color: ${props => (props.darkMode) ? props.theme.colors.light : props.theme.colors.dark};
-  font-size: 4em;
   padding: 0.25em 0 0 0;
   margin-bottom: 0.375em;
   text-align: ${props => props.align || 'left'};
@@ -22,6 +21,18 @@ const Title = styled.h2`
     top: 0.15em;
     ${props => (props.align === 'center') ? 'left:0; right:0; margin:0 auto;' : '' }
     ${props => (props.align === 'right') ? 'right:0;' : '' }
+  }
+
+  font-size: 2.75em;
+
+  @media (min-width: 768px) {
+    font-size: 3em;
+  }
+  @media (min-width: 992px) {
+    font-size: 3.5em;
+  }
+  @media (min-width: 1200px) {
+    font-size: 4em;
   }
 
   span span {

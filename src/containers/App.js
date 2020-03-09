@@ -23,7 +23,23 @@ const theme = {
     text: "'Work Sans', sans-serif"
   },
   pageWidth: {
-    xl: 1200
+    xl: 1200,
+    l: 992,
+    m: 768,
+    s: 576
+
+// Small devices (landscape phones, 576px and up)
+// @media (min-width: 576px) { ... }
+
+// // Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) { ... }
+
+// // Large devices (desktops, 992px and up)
+// @media (min-width: 992px) { ... }
+
+// // Extra large devices (large desktops, 1200px and up)
+// @media (min-width: 1200px) { ... }
+
   }
 }
 
@@ -31,7 +47,18 @@ const Container = styled.div`
   margin: 0 auto;
   padding: 0 30px;
   width: 100%;
-  max-width: ${theme.pageWidth.xl}px;
+  @media (min-width: 576px) {
+    max-width: ${theme.pageWidth.s}px;
+  }
+  @media (min-width: 768px) {
+    max-width: ${theme.pageWidth.m}px;
+  }
+  @media (min-width: 992px) {
+    max-width: ${theme.pageWidth.l}px;
+  }
+  @media (min-width: 1200px) {
+    max-width: ${theme.pageWidth.xl}px;
+  }
 `;
 
 const P = styled.p`

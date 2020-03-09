@@ -6,9 +6,13 @@ const Team = (props) => {
 
   const Grid = styled.div`
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-column-gap: 22px;
     grid-row-gap: 22px;
+
+    @media (min-width: 992px) {
+      grid-template-columns: 1fr 1fr;
+    }
   `;
 
   return (

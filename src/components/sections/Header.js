@@ -16,6 +16,21 @@ const Header = (props) => {
     text-align: left;
     line-height: 1;
     color: ${props.theme.colors.dark};
+
+    font-size: 0.6875em;
+
+    @media (min-width: 576px) {
+      font-size: 0.6875em;
+    }
+    @media (min-width: 768px) {
+      font-size: 0.75em;
+    }
+    @media (min-width: 992px) {
+      font-size: 0.875em;
+    }
+    @media (min-width: 1200px) {
+      font-size: 1em;
+    }
   `;
 
   const Logo = styled.p`
