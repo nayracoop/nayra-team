@@ -25,13 +25,13 @@ const Title = styled.h2`
 
   font-size: 2.75em;
 
-  @media (min-width: 768px) {
+  @media (min-width: ${props => props.theme.pageWidth.m}px) {
     font-size: 3em;
   }
-  @media (min-width: 992px) {
+  @media (min-width: ${props => props.theme.pageWidth.l}px) {
     font-size: 3.5em;
   }
-  @media (min-width: 1200px) {
+  @media (min-width: ${props => props.theme.pageWidth.xl}px) {
     font-size: 4em;
   }
 

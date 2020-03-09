@@ -19,7 +19,6 @@ const Item = styled.li`
 const TeamCardInfoIcons = (props) => {
 
   let icons = null;
-  console.log(props.set)
   if(props.set) icons = props.set.map(icon => {
     return <Item key={icon}><FontAwesomeIcon icon={['fab', icon]} /><i class={'icon-' + icon}></i></Item>
   })

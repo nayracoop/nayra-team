@@ -6,16 +6,16 @@ const InlineList = styled.ul`
   display: grid;
   grid-column-gap: 10px;
 
-  @media (min-width: 576px) {
+  @media (min-width: ${props => props.theme.pageWidth.s}px) {
     grid-template-columns: 1fr;
   }
-  @media (min-width: 768px) {
+  @media (min-width: ${props => props.theme.pageWidth.m}px) {
     grid-template-columns: 1fr 1fr;
   }
-  @media (min-width: 992px) {
+  @media (min-width: ${props => props.theme.pageWidth.l}px) {
     grid-template-columns: 1fr;
   }
-  @media (min-width: 1200px) {
+  @media (min-width: ${props => props.theme.pageWidth.xl}px) {
     grid-template-columns: 1fr 1fr;
   }
 `;

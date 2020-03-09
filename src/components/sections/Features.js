@@ -2,21 +2,21 @@ import React from 'react';
 import styled, { withTheme } from 'styled-components' 
 import FeatureCard from '../snippets/FeatureCard';
 
+const Grid = styled.div`
+  display: grid;
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+
+  @media (min-width: ${props => props.theme.pageWidth.s}px) {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  @media (min-width: ${props => props.theme.pageWidth.l}px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+`;
+
 const Features = (props) => {
-
-  const Grid = styled.div`
-    display: grid;
-    grid-column-gap: 40px;
-    grid-row-gap: 40px;
-
-    @media (min-width: 576px) {
-      grid-template-columns: 1fr;
-      text-align: center;
-    }
-    @media (min-width: 992px) {
-      grid-template-columns: 1fr 1fr 1fr;
-    }
-  `;
 
   return (
     <div className="Features">

@@ -2,18 +2,18 @@ import React from 'react';
 import styled, { withTheme } from 'styled-components' 
 import TeamCard from '../snippets/TeamCard';
 
+const Grid = styled.div`
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column-gap: 22px;
+  grid-row-gap: 22px;
+
+  @media (min-width: ${props => props.theme.pageWidth.l}px) {
+    grid-template-columns: 1fr 1fr;
+  }
+`;
+
 const Team = (props) => {
-
-  const Grid = styled.div`
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-column-gap: 22px;
-    grid-row-gap: 22px;
-
-    @media (min-width: 992px) {
-      grid-template-columns: 1fr 1fr;
-    }
-  `;
 
   return (
     <div className="Team">

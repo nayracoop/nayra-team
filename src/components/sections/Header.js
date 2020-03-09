@@ -1,37 +1,37 @@
 import React from 'react';
 import styled, { withTheme } from 'styled-components' 
 
-const Header = (props) => {
-  
-  const StyledHeader = styled.header`
-    text-align: center;
-    margin: 6em 0;
-  `;
+const StyledHeader = styled.header`
+  text-align: center;
+  margin: 6em 0;
+`;
 
-  const TitleContainer = styled.div`
-    display: inline-block;
-    font-family: ${props.theme.fonts.display};
-    padding: 3.75em 0;
-    font-weight: 500;
-    text-align: left;
-    line-height: 1;
-    color: ${props.theme.colors.dark};
+const TitleContainer = styled.div`
+  display: inline-block;
+  font-family: ${props => props.theme.fonts.display};
+  padding: 3.75em 0;
+  font-weight: 500;
+  text-align: left;
+  line-height: 1;
+  color: ${props => props.theme.colors.dark};
 
+  font-size: 0.6875em;
+
+  @media (min-width: ${props => props.theme.pageWidth.s}px) {
     font-size: 0.6875em;
+  }
+  @media (min-width: ${props => props.theme.pageWidth.m}px) {
+    font-size: 0.75em;
+  }
+  @media (min-width: ${props => props.theme.pageWidth.l}px) {
+    font-size: 0.875em;
+  }
+  @media (min-width: ${props => props.theme.pageWidth.xl}px) {
+    font-size: 1em;
+  }
+`;
 
-    @media (min-width: 576px) {
-      font-size: 0.6875em;
-    }
-    @media (min-width: 768px) {
-      font-size: 0.75em;
-    }
-    @media (min-width: 992px) {
-      font-size: 0.875em;
-    }
-    @media (min-width: 1200px) {
-      font-size: 1em;
-    }
-  `;
+const Header = (props) => {
 
   const Logo = styled.p`
     position: relative;
