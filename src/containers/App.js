@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import styled, { ThemeProvider } from 'styled-components';
+import P5Wrapper from 'react-p5-wrapper';
+import sketch from '../assets/sketchbook/background';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
  
@@ -96,6 +98,7 @@ class App extends Component {
             </Container>
             <Contact title={<span>Keep <span>in touch</span></span>} email="info@nayra.coop" />
           </article>
+          <P5Wrapper sketch={sketch}></P5Wrapper>
         </ThemeProvider>
       </div>
     );

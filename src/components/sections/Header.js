@@ -3,7 +3,8 @@ import styled, { withTheme } from 'styled-components'
 
 const StyledHeader = styled.header`
   text-align: center;
-  margin: 6em 0;
+  margin: 0 0 6em 0;
+  padding-top: 6em;
 `;
 
 const TitleContainer = styled.div`

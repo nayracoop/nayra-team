@@ -18,7 +18,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   background-color: $light-color;
-  background-image: url('../img/bg/grid.png'), url('../img/bg/light.png');
+  background-image: url('../img/bg/grid.png');//, url('../img/bg/light.png');
   // background-attachment: fixed, scroll; 
   background-attachment: scroll, fixed; 
   background-size: auto, cover;
@@ -29,4 +29,13 @@ body {
 
 * { 
   box-sizing: border-box;
+}
+
+canvas {
+  display:block;
+  position: fixed;
+  z-index: -1;
+  top:0;
+  left:0;
+
 }
