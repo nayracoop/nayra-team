@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/nayra-team/static/css/main.5293cf0e.chunk.css",
+    "main.js": "/nayra-team/static/js/main.ad156235.chunk.js",
+    "main.js.map": "/nayra-team/static/js/main.ad156235.chunk.js.map",
+    "runtime-main.js": "/nayra-team/static/js/runtime-main.fe5c61e7.js",
+    "runtime-main.js.map": "/nayra-team/static/js/runtime-main.fe5c61e7.js.map",
+    "static/js/2.a500230f.chunk.js": "/nayra-team/static/js/2.a500230f.chunk.js",
+    "static/js/2.a500230f.chunk.js.map": "/nayra-team/static/js/2.a500230f.chunk.js.map",
+    "index.html": "/nayra-team/index.html",
+    "precache-manifest.bf5621197ee8a31992996994736f52d4.js": "/nayra-team/precache-manifest.bf5621197ee8a31992996994736f52d4.js",
+    "service-worker.js": "/nayra-team/service-worker.js",
+    "static/css/main.5293cf0e.chunk.css.map": "/nayra-team/static/css/main.5293cf0e.chunk.css.map",
+    "static/js/2.a500230f.chunk.js.LICENSE.txt": "/nayra-team/static/js/2.a500230f.chunk.js.LICENSE.txt",
+    "static/media/dark.png": "/nayra-team/static/media/dark.0e4dd2f4.png",
+    "static/media/theme.scss": "/nayra-team/static/media/font-mfizz.64c7cf6c.woff",
+    "static/media/infrastructure.svg": "/nayra-team/static/media/infrastructure.0958191b.svg",
+    "static/media/scalability.svg": "/nayra-team/static/media/scalability.19136ebb.svg",
+    "static/media/vision.svg": "/nayra-team/static/media/vision.31491286.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fe5c61e7.js",
+    "static/js/2.a500230f.chunk.js",
+    "static/css/main.5293cf0e.chunk.css",
+    "static/js/main.ad156235.chunk.js"
+  ]
+}
