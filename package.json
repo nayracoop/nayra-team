@@ -6,11 +6,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.27",
     "@fortawesome/free-brands-svg-icons": "^5.12.1",
-<<<<<<< HEAD
     "@fortawesome/free-solid-svg-icons": "^5.12.1",
-=======
-    "@fortawesome/free-regular-svg-icons": "^5.12.1",
->>>>>>> 28888b26b140ccf9aeec3d88b47f8c7fcd466d02
     "@fortawesome/react-fontawesome": "^0.1.8",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.1",
