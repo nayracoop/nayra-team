@@ -3,7 +3,10 @@ import styled, { withTheme } from 'styled-components'
 import SectionTitle from '../snippets/SectionTitle';
 
 const Section = styled.section`
-  margin: 11em 0;
+  margin: 11em 0;  
+  @media all and (max-width: 576px) {
+    margin: 6em 0;  
+  }
 `;
 
 const SectionBlock = (props) => {

@@ -9,6 +9,9 @@ const Section = styled.section`
   background-image: url(${require('../../assets/img/bg/dark.png')});
   background-size: cover;
   background-position: bottom;
+  @media all and (max-width: 576px) {
+    margin-top: 0;
+  }
 `;
 
 const Container = styled.div`

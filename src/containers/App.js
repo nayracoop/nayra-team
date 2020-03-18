@@ -53,6 +53,9 @@ const P = styled.p`
   font-family: ${theme.fonts.display};
   font-size: 1.5em;
   margin: 1.375em 0;
+  @media all and (max-width: 576px) {
+    font-size: 1.35em;
+  }  
 `;
 
 class App extends Component {

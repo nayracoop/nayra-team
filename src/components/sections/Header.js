@@ -5,6 +5,9 @@ const StyledHeader = styled.header`
   text-align: center;
   margin: 0 0 6em 0;
   padding-top: 6em;
+  @media all and (max-width: 576px) {
+    padding-top: 2em;
+  }
 `;
 
 const TitleContainer = styled.div`
@@ -72,7 +75,7 @@ const Header = (props) => {
   `;
 
   const TextContainer = styled.div`
-    text-align: left;
+    text-align: left;  
   `;
 
   return (
