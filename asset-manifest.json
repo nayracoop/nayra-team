@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/nayra-team/static/css/main.5293cf0e.chunk.css",
-    "main.js": "/nayra-team/static/js/main.96b8b3fe.chunk.js",
-    "main.js.map": "/nayra-team/static/js/main.96b8b3fe.chunk.js.map",
+    "main.js": "/nayra-team/static/js/main.f0d94bdf.chunk.js",
+    "main.js.map": "/nayra-team/static/js/main.f0d94bdf.chunk.js.map",
     "runtime-main.js": "/nayra-team/static/js/runtime-main.fe5c61e7.js",
     "runtime-main.js.map": "/nayra-team/static/js/runtime-main.fe5c61e7.js.map",
     "static/js/2.c6621056.chunk.js": "/nayra-team/static/js/2.c6621056.chunk.js",
     "static/js/2.c6621056.chunk.js.map": "/nayra-team/static/js/2.c6621056.chunk.js.map",
     "index.html": "/nayra-team/index.html",
-    "precache-manifest.f6d74d3319330ea40b1dde13e2792fde.js": "/nayra-team/precache-manifest.f6d74d3319330ea40b1dde13e2792fde.js",
+    "precache-manifest.9055b5e80b9610d0aa03e48aec4dc0e8.js": "/nayra-team/precache-manifest.9055b5e80b9610d0aa03e48aec4dc0e8.js",
     "service-worker.js": "/nayra-team/service-worker.js",
     "static/css/main.5293cf0e.chunk.css.map": "/nayra-team/static/css/main.5293cf0e.chunk.css.map",
     "static/js/2.c6621056.chunk.js.LICENSE.txt": "/nayra-team/static/js/2.c6621056.chunk.js.LICENSE.txt",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.fe5c61e7.js",
     "static/js/2.c6621056.chunk.js",
     "static/css/main.5293cf0e.chunk.css",
-    "static/js/main.96b8b3fe.chunk.js"
+    "static/js/main.f0d94bdf.chunk.js"
   ]
 }
