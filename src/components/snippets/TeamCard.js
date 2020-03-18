@@ -6,10 +6,12 @@ const Container = styled.section`
   padding: 25px;
   border: 1px solid #cdced0;
   border-radius: 8px;
-
   display: grid;
   grid-template-columns: 140px 1fr;
   grid-column-gap: 22px;
+  @media all and (max-width: 450px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 const Image = styled.img`
@@ -19,6 +21,11 @@ const Image = styled.img`
   width: 140px;
   height: 140px;
   border-radius: 50%;
+  @media all and (max-width: 450px) {
+    width: 110px;
+    height: 110px;
+    margin: auto;
+  }  
 `;
 
 const TeamCard = (props) => {
