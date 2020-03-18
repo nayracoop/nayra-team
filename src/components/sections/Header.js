@@ -5,6 +5,9 @@ const StyledHeader = styled.header`
   text-align: center;
   margin: 0 0 6em 0;
   padding-top: 6em;
+  @media all and (max-width: 576px) {
+    padding-top: 2em;
+  }
 `;
 
 const TitleContainer = styled.div`
@@ -15,9 +18,7 @@ const TitleContainer = styled.div`
   text-align: left;
   line-height: 1;
   color: ${props => props.theme.colors.dark};
-
   font-size: 0.6875em;
-
   @media (min-width: ${props => props.theme.pageWidth.s}px) {
     font-size: 0.6875em;
   }
@@ -39,8 +40,13 @@ const Header = (props) => {
     text-transform: lowercase;
     font-size: 11em;
     letter-spacing: .075em;
-    margin: 0;
-    
+    margin: 0;    
+    @media all and (max-width: 576px) {
+      font-size: 8em;
+    }
+    @media all and (max-width: 320px) {
+      font-size: 5em;
+    }    
     ::before {
       position: absolute;
       content: "";
@@ -57,11 +63,19 @@ const Header = (props) => {
   const Title = styled.h1`
     font-size: 2em;
     font-weight: 400;
-    margin: -0.325em 0 0 11.25em;
+    margin: -0.325em 0 0 11.25em;    
+    @media all and (max-width: 576px) {
+      font-size: 1.75em;
+      margin: -0.325em 0 0 9.25em;
+    }    
+    @media all and (max-width: 320px) {
+      font-size: 1.5em;
+      margin: -0.125em 0 0 6.85em;
+    }
   `;
 
   const TextContainer = styled.div`
-    text-align: left;
+    text-align: left;  
   `;
 
   return (

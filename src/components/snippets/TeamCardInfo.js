@@ -6,14 +6,20 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFilePdf } from "@fortawesome/free-regular-svg-icons";
 
 const Container = styled.section`
-  display: grid;
+  display: grid;  
+  @media all and (max-width: 450px) {
+    text-align: center;
+  }
 `;
 
 const Title = styled.h3`
   font-family: ${props => props.theme.fonts.display};
   font-weight: 500;
   color: ${props => props.theme.colors.dark};
-  font-size: 1.25em;
+  font-size: 1.35em;
+  @media all and (max-width: 450px) {
+    margin-top: 15px;
+  }
 `;
 
 const Position = styled.p`
@@ -22,6 +28,9 @@ const Position = styled.p`
 
 const LinksContainer = styled.div`
   align-self: end;
+  @media all and (max-width: 450px) {
+    margin-top: 10px;
+  }
 `;
 
 const Icon = styled.span`

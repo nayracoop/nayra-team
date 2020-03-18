@@ -6,6 +6,10 @@ const Grid = styled.div`
   display: grid;
   grid-column-gap: 40px;
   grid-row-gap: 40px;
+  
+  @media all and (max-width: 576px) {
+    grid-row-gap: 20px;
+  }
 
   @media (min-width: ${props => props.theme.pageWidth.s}px) {
     grid-template-columns: 1fr;
