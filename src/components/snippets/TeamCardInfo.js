@@ -52,9 +52,11 @@ const TeamCardInfo = (props) => {
 
   return (
     <Container className="TeamCardInfo">
+      {props.cv ? 
       <div>
         <Link href={props.cv } download><FontAwesomeIcon icon={faFileDownload} />CV</Link>
-      </div>
+      </div> : null
+      }
       <div>
         <Title>{props.name}</Title>
         <Position>{props.position}</Position>
