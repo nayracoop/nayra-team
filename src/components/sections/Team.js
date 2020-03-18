@@ -18,12 +18,12 @@ const Team = (props) => {
   return (
     <div className="Team">
       <Grid>
-        <TeamCard name="Pehuén Rodriguez" position="Sr. full-stack developer" knowledge={ [ 'node-js', 'elixir','reactjs', 'mongodb', 'postgres' ] } github="/pehuenrodriguez" linkedin="/pehuenrodriguez" img={require('../../assets/img/pehue.jpg')} />
-        <TeamCard name="José Casanova" position="Sr. backend developer" knowledge={ [ 'php', 'node-js', 'python', 'reactjs', 'mongodb', 'mysql' ] } github="/casanovajose" linkedin="/casajosemus" img={require('../../assets/img/jose.jpg')} />
-        <TeamCard name="Martina Colmenero" position="Sr. full-stack developer" knowledge={ ['vuejs', 'node-js', 'mongodb' ] } github="/martucol" linkedin="/martina-colmenero" img={require('../../assets/img/martu.jpg')} />
-        <TeamCard name="Ignacio Guerra" position="Sr. interactive developer" knowledge={ [ 'vuejs', 'reactjs', 'javascript', 'html5' , 'css3-alt'] } github="/ignacioguerra" linkedin="/ignacio-guerra" img={require('../../assets/img/nacho.jpg')} />
+        <TeamCard name="Pehuén Rodriguez" position="Sr. full-stack developer" knowledge={ [ 'node-js', 'elixir','reactjs', 'mongodb', 'postgres' ] } github="/pehuenrodriguez" linkedin="/pehuenrodriguez" img={require('../../assets/img/pehue.jpg')} fileCv="CV_PehuenRodriguez.pdf" />
+        <TeamCard name="José Casanova" position="Sr. backend developer" knowledge={ [ 'php', 'node-js', 'python', 'reactjs', 'mongodb', 'mysql' ] } github="/casanovajose" linkedin="/casajosemus" img={require('../../assets/img/jose.jpg')} fileCv="CV_JoseMariaCasanova.pdf"/>
+        <TeamCard name="Martina Colmenero" position="Sr. full-stack developer" knowledge={ ['vuejs', 'node-js', 'mongodb' ] } github="/martucol" linkedin="/martina-colmenero" img={require('../../assets/img/martu.jpg')} fileCv="CV_MartinaColmenero.pdf"/>
+        <TeamCard name="Ignacio Guerra" position="Sr. interactive developer" knowledge={ [ 'vuejs', 'reactjs', 'javascript', 'html5' , 'css3-alt'] } github="/ignacioguerra" linkedin="/ignacio-guerra" img={require('../../assets/img/nacho.jpg')} fileCv="CV_IgnacioGuerra.pdf"/>
         <TeamCard name="Tobías Irigoyen" position="Sr. frontend developer" knowledge={ [ 'html5', 'css3-alt', 'vuejs' ] } github="/tobias-irigoyen" linkedin="/tobiasirigoyen" img={require('../../assets/img/tobi.jpg')} />
-        <TeamCard name="Romina Gómez" position="Sr. UX designer/ frontend developer" knowledge={ [ 'figma', 'invision', 'html5' , 'css3-alt', 'javascript', 'reactjs' ] } github="/romi-gomez" linkedin="/romigomez" img={require('../../assets/img/romi.jpg')} />
+        <TeamCard name="Romina Gómez" position="Sr. UX designer/ frontend developer" knowledge={ [ 'figma', 'invision', 'html5' , 'css3-alt', 'javascript', 'reactjs' ] } github="/romi-gomez" linkedin="/romigomez" img={require('../../assets/img/romi.jpg')} fileCv="CV_RominaGomez.pdf"/>
       </Grid>
     </div>
   );

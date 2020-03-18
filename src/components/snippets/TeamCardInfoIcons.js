@@ -20,7 +20,7 @@ const TeamCardInfoIcons = (props) => {
 
   let icons = null;
   if(props.set) icons = props.set.map(icon => {
-    return <Item key={icon}><FontAwesomeIcon icon={['fab', icon]} /><i class={'icon-' + icon}></i></Item>
+    return <Item key={icon}><FontAwesomeIcon icon={['fab', icon]} /><i className={'icon-' + icon}></i></Item>
   })
 
   return (

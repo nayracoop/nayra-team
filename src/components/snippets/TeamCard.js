@@ -26,7 +26,7 @@ const TeamCard = (props) => {
   return (
     <Container className="TeamCard">
       <Image src={props.img} />
-      <TeamCardInfo name={props.name} position={props.position} skills={props.knowledge} github={props.github} linkedin={props.linkedin} />
+      <TeamCardInfo name={props.name} position={props.position} skills={props.knowledge} github={props.github} linkedin={props.linkedin} fileCv={props.fileCv} />
     </Container>
   );
 }
