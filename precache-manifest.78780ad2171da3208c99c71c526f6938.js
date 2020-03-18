@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fd32fda5f47c9875efd983a627f9abfe",
+    "revision": "04ff32615106fefdd1ce9394e7271a98",
     "url": "/nayra-team/index.html"
   },
   {
-    "revision": "e87434e40f6f8c421123",
+    "revision": "8a6940636bf2f5d920f3",
     "url": "/nayra-team/static/css/main.5293cf0e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nayra-team/static/js/2.a500230f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e87434e40f6f8c421123",
-    "url": "/nayra-team/static/js/main.ad156235.chunk.js"
+    "revision": "8a6940636bf2f5d920f3",
+    "url": "/nayra-team/static/js/main.8e4633cf.chunk.js"
   },
   {
     "revision": "d3dbc6091d7b5ee44f09",
