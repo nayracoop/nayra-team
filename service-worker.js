@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/nayra-team/precache-manifest.78780ad2171da3208c99c71c526f6938.js"
+  "/nayra-team/precache-manifest.f6d74d3319330ea40b1dde13e2792fde.js"
 );
 
 self.addEventListener('message', (event) => {
