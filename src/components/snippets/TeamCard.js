@@ -9,6 +9,7 @@ const Container = styled.section`
   display: grid;
   grid-template-columns: 140px 1fr;
   grid-column-gap: 22px;
+  position: relative;
   @media all and (max-width: 450px) {
     grid-template-columns: 1fr;
   }
@@ -33,7 +34,7 @@ const TeamCard = (props) => {
   return (
     <Container className="TeamCard">
       <Image src={props.img} />
-      <TeamCardInfo name={props.name} position={props.position} skills={props.knowledge} github={props.github} linkedin={props.linkedin} />
+      <TeamCardInfo name={props.name} position={props.position} skills={props.knowledge} cv={props.cv} github={props.github} linkedin={props.linkedin} />
     </Container>
   );
 }

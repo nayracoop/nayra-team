@@ -26,7 +26,7 @@ const Link = styled.a`
   font-family: ${props => props.theme.fonts.display};
   font-size: 1.5em;
   margin: 1.375em 0;
-  color: inherit;
+  color: #c6c6c6;
   text-decoration: none;
 
   :hover {
