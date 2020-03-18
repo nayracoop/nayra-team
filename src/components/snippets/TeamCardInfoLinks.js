@@ -40,7 +40,7 @@ const TeamCardInfoLinks = (props) => {
 
   return (
     <InlineList className="TeamCardInfoLinks">
-      <li><Icon><FontAwesomeIcon icon={['fab', 'linkedin']} /></Icon> <Link href={'https://www.linkedin.com/in/' + props.linkedin}>{props.linkedin}</Link></li>
+      <li><Icon><FontAwesomeIcon icon={['fab', 'linkedin']} /></Icon> <Link href={'https://www.linkedin.com/in' + props.linkedin}>{props.linkedin}</Link></li>
       <li><Icon><FontAwesomeIcon icon={['fab', 'github']} /></Icon> <Link href={'https://github.com' + props.github}>{props.github}</Link></li>
     </InlineList>
   );
