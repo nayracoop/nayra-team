@@ -85,15 +85,16 @@ class App extends Component {
               </Header>
             </Container>
             <Container>
-              <SectionBlock title={<span>Why is better <span>to hire us?</span></span>}>
-                <Features />
-              </SectionBlock>
-            </Container>
-            <Container>
               <SectionBlock title={<span>Meet <span>the team</span></span>}>
                 <Team />
               </SectionBlock>
             </Container>
+            <Container>
+              <SectionBlock title={<span>Why is better <span>to hire us?</span></span>}>
+                <Features />
+              </SectionBlock>
+            </Container>
+            
             {/* <Container>
               <SectionBlock title={<span>Need <span>a bigger team</span></span>}>
                 <P>We work with all these people from FIT that are unos capos and  lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed magna porta, rutrum dui et, sollicitudin ligula. Duis porttitor blandit mi ornare dignissim. Curabitur eget imperdiet purus, quis condimentum metus. Integer sodales enim eu nibh dignissim venenatis. Duis sit amet condimentum est. Donec facilisis,.</P>
