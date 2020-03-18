@@ -79,9 +79,9 @@ class App extends Component {
         <ThemeProvider theme={theme}>
           <article>
             <Container>
-              <Header title="No sé qué frase va acá">
-                <P>We are a team of designers, developers and artists established as a worker's co-op, dedicated to the development of reliable and dynamic interactive systems.</P>
-                <P>Collaborative work and a horizontal and democratic organization enhance the creative and professional processes, allowing us to obtain excellent results in each project.</P>
+              <Header title="">
+                <P>Nayra is a decentralized self-managed company located in Buenos Aires, Argentina.</P>
+                <P>We provide software development services and solutions, delivering exceptional remote staff augmentation services to our clients.</P>
               </Header>
             </Container>
             <Container>
@@ -94,11 +94,11 @@ class App extends Component {
                 <Team />
               </SectionBlock>
             </Container>
-            <Container>
+            {/* <Container>
               <SectionBlock title={<span>Need <span>a bigger team</span></span>}>
                 <P>We work with all these people from FIT that are unos capos and  lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed magna porta, rutrum dui et, sollicitudin ligula. Duis porttitor blandit mi ornare dignissim. Curabitur eget imperdiet purus, quis condimentum metus. Integer sodales enim eu nibh dignissim venenatis. Duis sit amet condimentum est. Donec facilisis,.</P>
               </SectionBlock>
-            </Container>
+            </Container> */}
             <Contact title={<span>Keep <span>in touch</span></span>} email="info@nayra.coop" />
           </article>
           <P5Wrapper sketch={sketch}></P5Wrapper>
