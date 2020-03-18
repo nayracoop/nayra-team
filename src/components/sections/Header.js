@@ -41,6 +41,14 @@ const Header = (props) => {
     letter-spacing: .075em;
     margin: 0;
     
+    @media all and (max-width: 576px) {
+      font-size: 8em;
+    }
+
+    @media all and (max-width: 320px) {
+      font-size: 5em;
+    }
+    
     ::before {
       position: absolute;
       content: "";
@@ -58,6 +66,16 @@ const Header = (props) => {
     font-size: 2em;
     font-weight: 400;
     margin: -0.325em 0 0 11.25em;
+    
+    @media all and (max-width: 576px) {
+      font-size: 1.75em;
+      margin: -0.325em 0 0 9.25em;
+    }
+    
+    @media all and (max-width: 320px) {
+      font-size: 1.5em;
+      margin: -0.125em 0 0 6.85em;
+    }
   `;
 
   const TextContainer = styled.div`
