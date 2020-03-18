@@ -22,13 +22,13 @@ const Features = (props) => {
     <div className="Features">
       <Grid>
         <FeatureCard title="Infrastructure" img={require('../../assets/img/infrastructure.svg')}>
-          We believe that the workspace plays a fundamental role in performance. That is why we have our own office that allows us to work in a comfortable, safe and fully equipped environment.
+          With an office of our own, we work in a self-managed, safe, comfortable and fully equipped environment.
         </FeatureCard>
         <FeatureCard title="Scalable teams" img={require('../../assets/img/scalability.svg')}>
-          I am part of a team of developers and, as such, we work together in an organized, decisive manner and in an environment of support and trust that allows us to offer fully compatible resources and  teams.
+          Let us grow with your business. We can help you find compatible resources and teams from our IT coops network.
         </FeatureCard>
         <FeatureCard title="Training and vision" img={require('../../assets/img/vision.svg')}>
-          As an interdisciplinary team, we approach each project from a global perspective that meets all your specific requirements. As a company, we understand that this is an industry that is continuously evolving and ...
+        Ours is an industry in continuous evolution. We take learning very seriously and invest in constant training.
         </FeatureCard>
       </Grid>
     </div>
