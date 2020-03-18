@@ -10,14 +10,21 @@ const Container = styled.div`
   background: -ms-linear-gradient(left, rgba(234,234,234,0) 0%, rgba(245,245,245,1) 100%);
   background: linear-gradient(to right, rgba(234,234,234,0) 0%, rgba(245,245,245,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', endColorstr='#f5f5f5', GradientType=1 );
-  border-radius: 8px;
+  border-radius: 8px;  
+  p {
+    font-size: 1.1em;
+  }  
+  @media all and (max-width: 576px) {
+    padding: 20px 12px;    
+  }
 `;
 
 const Title = styled.h3`
   font-family: ${props => props.theme.fonts.display};
   font-weight: 500;
   color: ${props => props.theme.colors.primary};
-  font-size: 1.25em;
+  font-size: 1.35em;
+  margin-bottom: .35rem;
 `;
 
 const Icon = styled.img`
@@ -25,6 +32,10 @@ const Icon = styled.img`
   max-height: 100px;
   margin: 0 auto;
   margin-bottom: 1.5em;
+  
+  @media all and (max-width: 576px) {
+    margin-left: 0;
+  }
 `;
 
 const FeatureCard = (props) => {
