@@ -22,7 +22,7 @@ const Team = (props) => {
         <TeamCard name="Martina Colmenero" position="Full-stack developer" knowledge={ ['vuejs', 'node-js', 'mongodb' ] } cv={require('../../assets/cvs/CV_MartinaColmenero.pdf')} github="/martucol" linkedin="/martina-colmenero" img={require('../../assets/img/martu.jpg')} />
         <TeamCard name="Ignacio Guerra" position="Interactive developer" knowledge={ [ 'vuejs', 'reactjs', 'javascript', 'html5' , 'css3-alt'] } cv={require('../../assets/cvs/CV_IgnacioGuerra.pdf')} github="/ignacioguerra" linkedin="/ignacio-guerra" img={require('../../assets/img/nacho.jpg')} />
         <TeamCard name="Tobías Irigoyen" position="Frontend developer" knowledge={ [ 'html5', 'css3-alt', 'vuejs' ] } cv='' github="/tobias-irigoyen" linkedin="/tobiasirigoyen" img={require('../../assets/img/tobi.jpg')} />
-        <TeamCard name="Romina Gómez" position="UX designer/ Frontend developer" knowledge={ [ 'figma', 'invision', 'html5' , 'css3-alt', 'javascript', 'reactjs' ] } cv={require('../../assets/cvs/CV_RominaGomez.pdf')} github="/romi-gomez" linkedin="/romigomez" img={require('../../assets/img/romi.jpg')} />
+        <TeamCard name="Romina Gómez" position="UX designer / Frontend developer" knowledge={ [ 'figma', 'invision', 'html5' , 'css3-alt', 'javascript', 'reactjs' ] } cv={require('../../assets/cvs/CV_RominaGomez.pdf')} github="/romi-gomez" linkedin="/romigomez" img={require('../../assets/img/romi.jpg')} />
       </Grid>
     </div>
   );

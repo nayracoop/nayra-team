@@ -19,8 +19,8 @@ const Image = styled.img`
   display: block;
   margin: 0;
   object-fit: cover;
-  width: 117px;
-  height: 117px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   @media all and (max-width: 450px) {
     width: 110px;

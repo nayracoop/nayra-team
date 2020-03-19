@@ -28,9 +28,7 @@ const Position = styled.p`
 
 const LinksContainer = styled.div`
   align-self: end;
-  @media all and (max-width: 450px) {
-    margin-top: 10px;
-  }
+  margin-top: 10px;
 `;
 
 const Link = styled.a`
