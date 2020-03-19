@@ -59,6 +59,7 @@ const TeamCardInfo = (props) => {
       }
       <div>
         <Title>{props.name}</Title>
+        <Position>{props.position}</Position>
         <TeamCardInfoIcons set={props.skills} />
       </div>
       <LinksContainer>
