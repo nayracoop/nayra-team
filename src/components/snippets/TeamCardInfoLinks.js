@@ -16,7 +16,7 @@ const InlineList = styled.ul`
     grid-template-columns: 1fr;
   }
   @media (min-width: ${props => props.theme.pageWidth.xl}px) {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 185px 1fr;
   }
   li {
     a {

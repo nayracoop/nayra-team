@@ -90,7 +90,7 @@ class App extends Component {
               </SectionBlock>
             </Container>
             <Container>
-              <SectionBlock title={<span>Why is better <span>to hire us?</span></span>}>
+              <SectionBlock title={<span>Why is it better <span>to hire us?</span></span>}>
                 <Features />
               </SectionBlock>
             </Container>

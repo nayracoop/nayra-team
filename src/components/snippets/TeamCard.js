@@ -7,8 +7,8 @@ const Container = styled.section`
   border: 1px solid #cdced0;
   border-radius: 8px;
   display: grid;
-  grid-template-columns: 140px 1fr;
-  grid-column-gap: 22px;
+  grid-template-columns: 138px 1fr;
+  grid-column-gap: 0px;
   position: relative;
   @media all and (max-width: 450px) {
     grid-template-columns: 1fr;
@@ -19,8 +19,8 @@ const Image = styled.img`
   display: block;
   margin: 0;
   object-fit: cover;
-  width: 140px;
-  height: 140px;
+  width: 117px;
+  height: 117px;
   border-radius: 50%;
   @media all and (max-width: 450px) {
     width: 110px;
