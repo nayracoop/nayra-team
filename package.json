@@ -1,7 +1,7 @@
 {
   "name": "nayra-team",
   "version": "0.1.0",
-  "homepage": "https://nayracoop.github.io/nayra-team",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.27",
