@@ -2,8 +2,6 @@ import React from 'react';
 import styled, { withTheme } from 'styled-components' 
 import TeamCardInfoIcons from './TeamCardInfoIcons';
 import TeamCardInfoLinks from './TeamCardInfoLinks';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFileDownload } from '@fortawesome/free-solid-svg-icons';
 
 const Container = styled.section`
   display: grid;  
@@ -31,30 +29,10 @@ const LinksContainer = styled.div`
   margin-top: 10px;
 `;
 
-const Link = styled.a`
-  position: absolute;
-  text-decoration: none;
-  top: 32px;
-  right: 25px;
-  color: inherit;
-  :hover {
-    color: ${props => props.theme.colors.dark};
-    text-decoration: underline;
-  }
-   svg {
-     margin-right: 5px;
-   }
-`;
-
 const TeamCardInfo = (props) => {
 
   return (
     <Container className="TeamCardInfo">
-      {props.cv ? 
-      <div>
-        <Link href={props.cv } download><FontAwesomeIcon icon={faFileDownload} />CV</Link>
-      </div> : null
-      }
       <div>
         <Title>{props.name}</Title>
         <Position>{props.position}</Position>
