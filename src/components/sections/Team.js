@@ -17,12 +17,9 @@ const Team = (props) => {
   return (
     <div className="Team">
       <Grid>
-        <TeamCard name="Pehuén Rodriguez" position="Full-stack developer" knowledge={ [ 'node-js', 'elixir','reactjs', 'mongodb', 'postgres' ] } cv={require('../../assets/cvs/CV_PehuenRodriguez.pdf')} github="/pehuen-rodriguez" linkedin="/pehuen-rodriguez" img={require('../../assets/img/pehue.jpg')} />
-        <TeamCard name="José Casanova" position="Backend developer" knowledge={ [ 'php', 'node-js', 'python', 'reactjs', 'mongodb', 'mysql' ] } cv={require('../../assets/cvs/CV_JoseMariaCasanova.pdf')}  github="/casanovajose" linkedin="/casajosemus" img={require('../../assets/img/jose.jpg')} />
-        <TeamCard name="Martina Colmenero" position="Full-stack developer" knowledge={ ['vuejs', 'node-js', 'mongodb' ] } cv={require('../../assets/cvs/CV_MartinaColmenero.pdf')} github="/martucol" linkedin="/martina-colmenero" img={require('../../assets/img/martu.jpg')} />
-        <TeamCard name="Ignacio Guerra" position="Interactive developer" knowledge={ [ 'vuejs', 'reactjs', 'javascript', 'html5' , 'css3-alt'] } cv={require('../../assets/cvs/CV_IgnacioGuerra.pdf')} github="/ignacioguerra" linkedin="/ignacio-guerra" img={require('../../assets/img/nacho.jpg')} />
-        <TeamCard name="Tobías Irigoyen" position="Frontend developer" knowledge={ [ 'html5', 'css3-alt', 'vuejs' ] } cv='' github="/tobias-irigoyen" linkedin="/tobiasirigoyen" img={require('../../assets/img/tobi.jpg')} />
-        <TeamCard name="Romina Gómez" position="UX designer / Frontend developer" knowledge={ [ 'figma', 'invision', 'html5' , 'css3-alt', 'javascript', 'reactjs' ] } cv={require('../../assets/cvs/CV_RominaGomez.pdf')} github="/romi-gomez" linkedin="/romigomez" img={require('../../assets/img/romi.jpg')} />
+        <TeamCard name="Pehuén Rodriguez" position="Full-stack developer" knowledge={ [ 'rust', 'elixir', 'node-js','reactjs', 'mongodb', 'postgres' ] } github="/pehuen-rodriguez" linkedin="/pehuen-rodriguez" img={require('../../assets/img/pehue_cartoon.jpg')} />
+        <TeamCard name="José Casanova" position="Backend developer" knowledge={ [ 'php', 'node-js', 'python', 'reactjs', 'mongodb', 'mysql' ] }  github="/casanovajose" linkedin="/casajosemus" img={require('../../assets/img/jose_cartoon.jpg')} />
+        <TeamCard name="Romina Landa" position="Data Scientist & IA Engineer / Data Architect" knowledge={ [ 'python', 'pandas', 'tensorflow', 'airflow', 'docker', 'database', 'postgres' ] } github="/RomiLanda" linkedin="/romina-ailin-landa" img={require('../../assets/img/romi_dino.jpg')} />
       </Grid>
     </div>
   );
